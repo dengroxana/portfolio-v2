@@ -7,19 +7,23 @@
   --gray-web: #848586;
   --heading: "Playfair Display", serif;
   --body: "Open Sans", sans-serif;
-  
 }
 
 .App {
   max-width: 960px;
-  margin: auto;
+  /* margin: 0 auto;
+  text-align: center; */
+}
+.sideBar {
+  display: flex;
+}
+.content {
+  margin-left: 20%;
   text-align: center;
 }
-
 body {
   background-color: var(--champagne);
   font-family: var(--body);
-
 }
 
 h1 {

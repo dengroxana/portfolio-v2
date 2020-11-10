@@ -11,13 +11,18 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+<div className="sideBar">
       <NavBar />
+      <div className="content">
       <Header />
+      
       <AboutMe />
       <Projects />
       <Skills />
       <Contact />
       <Footer />
+      </div>
+      </div>
     </div>
   );
 }
