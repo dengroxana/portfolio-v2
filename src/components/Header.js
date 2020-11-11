@@ -5,11 +5,9 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header">
-      <div className="title">
+      <div>
         <h1>
-          Hello! My name is Roxana & I'm a Software Engineer
-          <br />
-          based in NYC.
+          Hello! My name is Roxana & I'm a <span className="title">Software Engineer</span> based in NYC.
         </h1>
       </div>
       

@@ -1,0 +1,10 @@
+#Projects h1::after {
+    content: "";
+    width: 30%;
+    height: 1vw;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 33%;
+    background-color: var(--citrine);
+  }

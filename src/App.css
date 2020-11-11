@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 :root {
-  --champagne: #eee0cb;
-  --grullo: #baa898;
-  --gray-web: #848586;
+  --space-cadet: #2D3047;
+  --dark-sky-blue: #93B7BE;
+  --citrine: #E0CA3C;
   --heading: "Playfair Display", serif;
   --body: "Open Sans", sans-serif;
 }
@@ -22,10 +22,12 @@
   text-align: center;
 }
 body {
-  background-color: var(--champagne);
+ 
   font-family: var(--body);
 }
 
 h1 {
   font-family: var(--heading);
+  position: relative;
 }
+

@@ -1,5 +1,5 @@
 #Nav {
-background-color: var(--grullo);
+background-color: var(--dark-sky-blue);
 padding: 50px;
 
 }
@@ -7,10 +7,13 @@ padding: 50px;
 ul {
   list-style-type: none;
   text-align: center;
+  font-weight: bold;
 
 }
 .avatar img {
   height: 250px;
+width: 250px;
+border-radius: 50%;
 }
 a {
   text-decoration: none;

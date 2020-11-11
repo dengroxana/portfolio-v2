@@ -1,0 +1,10 @@
+#Skills h1::after {
+    content: "";
+    width: 21%;
+    height: 1vw;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 38%;
+    background-color: var(--citrine);
+  }

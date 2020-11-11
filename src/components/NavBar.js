@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
-import avatar from "../assets/avatar.jpeg";
+import avatar from "../assets/avatar.jpg";
+import resume from "../assets/rdeng-v4.pdf"
 
 function NavBar() {
   return (
@@ -17,6 +18,7 @@ function NavBar() {
         </li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
+        <li><a href={resume} target="_blank">Resume</a></li>
       </ul>
     </div>
   );

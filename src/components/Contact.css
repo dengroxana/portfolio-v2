@@ -1,104 +1,76 @@
 #Contact {
-    animation: fade ease-in 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  max-width: 400px;
   margin: auto;
+}
+#Contact h1::after {
+  content: "";
+  width: 41%;
+  height: 1vw;
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  right: 27%;
+  background-color: var(--citrine);
+}
+
+button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 1px solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: var(--space-cadet);
+  text-align: center;
+  transition: all 0.2s;
+}
+button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+*/ label {
+  font-family: var(--text);
+}
+input {
+  width: 200px;
+  height: 20px;
+}
+textarea {
+  resize: none;
+}
+
+@media only screen and (max-width: 375px) {
+  #Contact {
+    display: block;
+
+    margin: 0;
   }
   #Contact h2 {
-    margin: 30% 0 20% -350%;
+    font-size: 48px;
     text-align: center;
   }
-  /* .contact-container {
-    order: 2;
-    margin-left: 10%;
-    flex-direction: row;
-  } */
-  .submit-btn {
-    font-family: var(--links);
-    font-size: 18px;
-    width: 125px !important;
-    height: 50px !important;
-    animation: none !important;
-  }
-  .submit-btn:hover {
-    cursor: pointer;
-  }
   #Contact button {
-    width: 175px;
-    margin-bottom: 20px;
-    
+    padding: 10px;
   }
-  #Contact button:hover {
-    animation: tilt ease 0.5s;
-    animation-iteration-count: infinite;
+  .contact-container {
+    height: 50vh;
+    margin-left: 0;
   }
-  
-  .email-form {
-    z-index: 1;
-    border: 1px solid black;
-    padding: 0 20px;
+  .contact-img img {
+    height: 20vh;
+    border-right: none;
   }
-  label {
-    font-family: var(--text);
+  .contact-img {
+    margin-top: 5%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    order: 2;
+    width: 100vw;
+    height: auto;
+    align-items: flex-end;
   }
-  input {
-    width: 200px;
-    height: 20px;
-  }
-  textarea {
-    resize: none;
-  }
-  .down {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin: 0 5px;
-    animation: bounce;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes bounce {
-    from {
-      transform: translateY(0) rotate(45deg);
-      animation-timing-function: ease-in-out;
-    }
-    to {
-      transform: translateY(5px) rotate(45deg);
-    }
-  }
-  
-  @media only screen and (max-width: 375px) {
-    #Contact {
-      display: block;
-  
-      margin: 0;
-    }
-    #Contact h2 {
-      font-size: 48px;
-      text-align: center;
-    }
-    #Contact button {
-      padding: 10px;
-    }
-    .contact-container {
-      height: 50vh;
-      margin-left: 0;
-    }
-    .contact-img img {
-      height: 20vh;
-      border-right: none;
-    }
-    .contact-img {
-      margin-top: 5%;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-      display: flex;
-      order: 2;
-      width: 100vw;
-      height: auto;
-      align-items: flex-end;
-    }
-  }
-  
+}
