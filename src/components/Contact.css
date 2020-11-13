@@ -12,24 +12,7 @@
   background-color: var(--citrine);
 }
 
-button {
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  border: 1px solid black;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #ffffff;
-  background-color: var(--space-cadet);
-  text-align: center;
-  transition: all 0.2s;
-}
-button:hover {
-  background-color: #ffffff;
-  color: #000000;
-  cursor: pointer;
-}
+
 
 */ label {
   font-family: var(--text);
@@ -42,35 +25,4 @@ textarea {
   resize: none;
 }
 
-@media only screen and (max-width: 375px) {
-  #Contact {
-    display: block;
 
-    margin: 0;
-  }
-  #Contact h2 {
-    font-size: 48px;
-    text-align: center;
-  }
-  #Contact button {
-    padding: 10px;
-  }
-  .contact-container {
-    height: 50vh;
-    margin-left: 0;
-  }
-  .contact-img img {
-    height: 20vh;
-    border-right: none;
-  }
-  .contact-img {
-    margin-top: 5%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    display: flex;
-    order: 2;
-    width: 100vw;
-    height: auto;
-    align-items: flex-end;
-  }
-}
