@@ -15,13 +15,7 @@ function Projects() {
 
           <img src={sharkys} alt="" className="project-thumb" />
           <p>
-            Consectetur magna deserunt ex amet sint excepteur cillum sit dolor
-            commodo ea cillum voluptate cillum. Velit in nostrud irure commodo
-            qui incididunt incididunt nisi elit sint sunt officia non laboris.
-            Exercitation velit ex magna magna cupidatat aliqua minim laborum
-            sint. Laborum aliqua irure aliqua ad laborum deserunt. Lorem magna
-            ullamco exercitation dolor minim incididunt velit in aliqua tempor
-            elit proident culpa amet.
+           Built using React.js and CSS.
           </p>
           <button>
             <a
@@ -48,13 +42,7 @@ function Projects() {
           <h2>ChatRoom</h2>
           <img src={chatroom} alt="" className="project-thumb" />
           <p>
-            Qui minim voluptate consequat cupidatat et pariatur eu non. Commodo
-            duis laboris sit eu ex nisi laboris eu officia tempor. Pariatur
-            pariatur id mollit laborum fugiat ullamco excepteur pariatur. Sint
-            excepteur et minim occaecat amet ut dolor. Dolor dolore ex pariatur
-            commodo consequat nulla minim Lorem anim magna excepteur
-            consectetur. Pariatur esse amet tempor sint. Officia eiusmod non
-            minim ipsum eu exercitation nulla id culpa officia laborum veniam.
+            Built using Socket.io, React.js, Node.js, and CSS.
           </p>
           <button>
             <a
@@ -81,13 +69,7 @@ function Projects() {
           <h2>Hangry Helper</h2>
           <img src={hangry} alt="" className="project-thumb" />
           <p>
-            Qui minim voluptate consequat cupidatat et pariatur eu non. Commodo
-            duis laboris sit eu ex nisi laboris eu officia tempor. Pariatur
-            pariatur id mollit laborum fugiat ullamco excepteur pariatur. Sint
-            excepteur et minim occaecat amet ut dolor. Dolor dolore ex pariatur
-            commodo consequat nulla minim Lorem anim magna excepteur
-            consectetur. Pariatur esse amet tempor sint. Officia eiusmod non
-            minim ipsum eu exercitation nulla id culpa officia laborum veniam.
+            Built using React.js, CSS, and Ruby on Rails.
           </p>
           <button>
             <a
@@ -114,13 +96,7 @@ function Projects() {
           <h2>WYD</h2>
           <img src={wyd} alt="" className="project-thumb" />
           <p>
-            Qui minim voluptate consequat cupidatat et pariatur eu non. Commodo
-            duis laboris sit eu ex nisi laboris eu officia tempor. Pariatur
-            pariatur id mollit laborum fugiat ullamco excepteur pariatur. Sint
-            excepteur et minim occaecat amet ut dolor. Dolor dolore ex pariatur
-            commodo consequat nulla minim Lorem anim magna excepteur
-            consectetur. Pariatur esse amet tempor sint. Officia eiusmod non
-            minim ipsum eu exercitation nulla id culpa officia laborum veniam.
+           Built using JavaScript, HTML/CSS, Bored API, and GIPHY API.
           </p>
           <button>
             <a

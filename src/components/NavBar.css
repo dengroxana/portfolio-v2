@@ -23,4 +23,6 @@ a {
 .social {
   display: flex;
   justify-content: space-around;
+  border-top: 5px solid var(--space-cadet);
+  padding-top: 20px;
 }
