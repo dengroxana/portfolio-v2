@@ -1,5 +1,5 @@
-import React from 'react';
-import "./AboutMe.css"
+import React from "react";
+import "./AboutMe.css";
 
 function AboutMe() {
   return (
@@ -7,7 +7,6 @@ function AboutMe() {
       <h1>About Me</h1>
       <div className="about">
         <div className="about-container">
-         
           <div className="About-Me">
             <p>
               I am a detail-oriented <b>Front-End Developer</b> who previously
@@ -19,10 +18,8 @@ function AboutMe() {
               strong emphasis on mentorship so I can grow as both a developer
               and a professional.
             </p>
-         
           </div>
         </div>
-       
       </div>
     </div>
   );
