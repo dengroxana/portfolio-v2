@@ -10,7 +10,8 @@ import css from "../assets/css.svg";
 import git from "../assets/git.svg";
 import responsive from "../assets/responsive.svg";
 import command from "../assets/command.svg";
-import postgres from "../assets/postgres.svg"
+import postgres from "../assets/postgres.svg";
+import python from "../assets/python.svg";
 
 function Skills() {
   return (
@@ -22,6 +23,7 @@ function Skills() {
         <img src={html} alt="" />
         <img src={css} alt="" />
         <img src={responsive} alt="" />
+        <img src={python} alt="" />
         <img src={rails} alt="" />
         <img src={node} alt="" />
         <img src={mongodb} alt="" />
