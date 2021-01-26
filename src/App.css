@@ -11,13 +11,14 @@
 }
 
 .App {
-  max-width: 1024px;
+  /* max-width: 1024px; */
 }
 .sideBar {
   display: flex;
 }
 .content {
-  margin-left: 60%;
+ 
+  margin-left: 20%;
   text-align: center;
 
 }
@@ -29,6 +30,7 @@ body {
 h1 {
   font-family: var(--heading);
   position: relative;
+  margin-top: 0;
 }
 button {
   display: inline-block;

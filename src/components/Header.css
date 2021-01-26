@@ -1,16 +1,25 @@
 #Header {
   height: 100vh;
-  display: flex;
+  background: url("../assets/brooklyn-bridge.jpg");
+  background-size: cover;
+margin-left: -10%;
+
 }
 .header-container {
   align-self: center;
 }
 .header-container h1 {
-  text-align: right;
-  font-size: 36px;
+ padding-top: 10%;
+ width: 40vw;
+ margin-left: 15%;
+  font-size: 3vw;
+  text-align: justify;
+
 }
 .title {
   position: relative;
+  z-index: 0;
+
 }
 
 .title::after {
@@ -22,4 +31,9 @@
   bottom: 0;
   right: -3%;
   background-color: var(--citrine);
+}
+
+.bridge {
+  
+  z-index: -2;
 }
